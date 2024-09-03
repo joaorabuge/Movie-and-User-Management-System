@@ -50,12 +50,3 @@ The project consists of the following main files and directories:
 - `GET /movies/genres/:genre_name/year/:year`: List movies by genre and year.
 - `GET /movies/originaltitle`: List movies that include the original title in parenthesis.
 
-### Comments Endpoints
-
-- Managed through movie endpoints and specific routes for retrieving and aggregating comments.
-
-## Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/your-repository.git
