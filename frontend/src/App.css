@@ -1,0 +1,170 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navLogo {
+  height: 40px;
+}
+.nav-link {
+  color: #fff !important;
+}
+/* Header */
+header.masthead {
+  position: relative;
+  background-color: #f8f9fa;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+header.masthead h2 {
+  color: #000;
+}
+header.masthead .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+/* Finish Header */
+
+
+/* start here bro */
+.jumbotro {
+  background-color: #e9ecef;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.button-margin{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.star-rating {
+  font-size: 24px;
+  color: gold;
+}
+
+.min-height{
+  min-height: 50vh;
+}
+
+.btn-outline-primary {
+  color: rgb(127, 62, 231) !important;
+  background-color: white !important;
+  border-color: rgb(127, 62, 231) !important;
+  font-weight: 500 !important;
+  border-radius: 200px !important;
+  border: 2px solid rgb(127, 62, 231) !important ;
+  
+}
+
+.btn-outline-primary:hover {
+  color: white !important;
+  background-color: rgb(127, 62, 231) !important;
+}
+
+.btn-outline-secondary {
+  color: rgb(77, 77, 77) !important;
+  background-color: white !important;
+  border-color: rgb(77, 77, 77) !important;
+  font-weight: 500 !important;
+  border-radius: 200px !important;
+  border: 2px !important ;
+}
+
+.btn-outline-secondary:hover {
+  color: white !important;
+  background-color: rgb(77, 77, 77) !important;
+  border-color: rgb(77, 77, 77) !important;
+  font-weight: 500 !important;
+  border-radius: 200px !important;
+  border: 2px !important ;
+}
+
+.btn-outline-section {
+  color: white !important;
+  background-color: rgb(127, 62, 231) !important;
+  border-color: rgb(127, 62, 231) !important;
+  font-weight: 500 !important;
+  border-radius: 200px !important;
+  border: 2px  !important ;
+  
+}
+.btn-outline-section:hover {
+  color: white !important;
+  background-color: rgb(87, 5, 219) !important;
+  border-color: rgb(87, 5, 219) !important;
+  font-weight: 500 !important;
+  border-radius: 200px !important;
+  border: 2px  !important ;
+}
+
+.bg-purple{
+  background-color: rgb(24, 8, 49);
+}
+
+.mh{
+  max-height: 50vh;
+}
+
+.userImage{
+  max-width: 90px;
+  border-radius: 50% !important;
+  background-color: rgb(87, 5, 219);
+  padding: 3%; 
+}
+
+.card-title {
+  min-height: 50px;
+}
